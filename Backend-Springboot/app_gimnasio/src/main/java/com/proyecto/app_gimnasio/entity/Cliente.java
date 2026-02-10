@@ -1,11 +1,17 @@
 package com.proyecto.app_gimnasio.entity;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.time.LocalDate;
 
 @Entity
 @Table(name = "cliente")
+@Getter
+@Setter
+@NoArgsConstructor
 public class Cliente {
 
     @Id
